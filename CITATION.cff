@@ -1,0 +1,60 @@
+cff-version: 1.2.0
+message: "If you use this skill, please cite it as below, and cite The Prompt Report on which it is built."
+type: software
+title: "writing-prompts / scrittura-prompt: a prompt-writing skill for Claude"
+authors:
+  - family-names: Beretta
+    given-names: Riccardo
+version: "1.54"
+date-released: "2026-10-03"
+license: MIT
+repository-code: "https://github.com/Apsion9231/writing-prompts"
+abstract: >-
+  A skill for claude.ai that writes and revises prompts to paste into another
+  AI session (Claude, Claude Code, ChatGPT, Codex, Gemini or an image
+  generator), in English and Italian. It interviews the user on ten slots
+  before writing, selects techniques from the taxonomy of The Prompt Report,
+  and calibrates the prompt for the recipient model.
+keywords:
+  - prompt engineering
+  - Claude
+  - agent skills
+references:
+  - type: article
+    title: "The Prompt Report: A Systematic Survey of Prompt Engineering Techniques"
+    year: 2025
+    doi: "10.48550/arXiv.2406.06608"
+    url: "https://arxiv.org/abs/2406.06608"
+    notes: "arXiv:2406.06608v6. Every page reference in the skill points to this version."
+    authors:
+      - {family-names: Schulhoff, given-names: Sander}
+      - {family-names: Ilie, given-names: Michael}
+      - {family-names: Balepur, given-names: Nishant}
+      - {family-names: Kahadze, given-names: Konstantine}
+      - {family-names: Liu, given-names: Amanda}
+      - {family-names: Si, given-names: Chenglei}
+      - {family-names: Li, given-names: Yinheng}
+      - {family-names: Gupta, given-names: Aayush}
+      - {family-names: Han, given-names: HyoJung}
+      - {family-names: Schulhoff, given-names: Sevien}
+      - {family-names: Dulepet, given-names: Pranav Sandeep}
+      - {family-names: Vidyadhara, given-names: Saurav}
+      - {family-names: Ki, given-names: Dayeon}
+      - {family-names: Agrawal, given-names: Sweta}
+      - {family-names: Pham, given-names: Chau}
+      - {family-names: Kroiz, given-names: Gerson}
+      - {family-names: Li, given-names: Feileen}
+      - {family-names: Tao, given-names: Hudson}
+      - {family-names: Srivastava, given-names: Ashay}
+      - {family-names: Da Costa, given-names: Hevander}
+      - {family-names: Gupta, given-names: Saloni}
+      - {family-names: Rogers, given-names: Megan L.}
+      - {family-names: Goncearenco, given-names: Inna}
+      - {family-names: Sarli, given-names: Giuseppe}
+      - {family-names: Galynker, given-names: Igor}
+      - {family-names: Peskoff, given-names: Denis}
+      - {family-names: Carpuat, given-names: Marine}
+      - {family-names: White, given-names: Jules}
+      - {family-names: Anadkat, given-names: Shyamal}
+      - {family-names: Hoyle, given-names: Alexander}
+      - {family-names: Resnik, given-names: Philip}

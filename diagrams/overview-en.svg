@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="828" viewBox="0 0 1000 828" role="img">
+<title>writing-prompts · the skill at a glance</title>
+<rect width="1000" height="828" fill="#ffffff"/>
+<text x="24" y="44" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="24" font-weight="600" fill="#1f2328" text-anchor="start" data-maxw="952">writing-prompts · the skill at a glance</text>
+<text x="24" y="70" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" font-weight="400" fill="#57606a" text-anchor="start" data-maxw="952">Writes and revises prompts for another AI. It delivers the prompt and does not carry out the task it describes.</text>
+<rect x="24" y="92" width="178" height="262" rx="10" fill="#ecfdf5" stroke="#6ee7b7" stroke-width="1.2"/>
+<text x="38" y="120" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#065f46" text-anchor="start">In</text>
+<text x="38" y="154" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#065f46" text-anchor="start" data-maxw="154">Your request</text>
+<text x="38" y="176" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#065f46" text-anchor="start" data-maxw="154">for a prompt</text>
+<text x="38" y="198" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" font-weight="400" fill="#57606a" text-anchor="start" data-maxw="154"></text>
+<text x="38" y="220" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" font-weight="400" fill="#57606a" text-anchor="start" data-maxw="154">for Claude, ChatGPT,</text>
+<text x="38" y="242" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" font-weight="400" fill="#57606a" text-anchor="start" data-maxw="154">Gemini, Codex or an</text>
+<text x="38" y="264" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" font-weight="400" fill="#57606a" text-anchor="start" data-maxw="154">image generator</text>
+<line x1="206" y1="223.0" x2="221" y2="223.0" stroke="#8c959f" stroke-width="2"/><path d="M220,218.0 L228,223.0 L220,228.0 Z" fill="#8c959f"/>
+<rect x="232" y="92" width="512" height="262" rx="10" fill="#eef2ff" stroke="#a5b4fc" stroke-width="1.2"/>
+<text x="246" y="120" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#312e81" text-anchor="start">The skill, in five steps</text>
+<circle cx="259" cy="151" r="12" fill="#312e81"/>
+<text x="259" y="156" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#ffffff" text-anchor="middle">1</text>
+<text x="280" y="149" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#312e81" text-anchor="start" data-maxw="150">Classify</text>
+<text x="280" y="167" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="start" data-maxw="260">recipient, surface, complexity</text>
+<rect x="522" y="139" width="210" height="24" rx="6" fill="#ffffff" stroke="#a5b4fc"/>
+<text x="627.0" y="156" font-family="Consolas, Menlo, monospace" font-size="12" font-weight="400" fill="#312e81" text-anchor="middle" data-maxw="200">surfaces.md</text>
+<line x1="244" y1="173" x2="732" y2="173" stroke="#a5b4fc" stroke-opacity="0.6"/>
+<circle cx="259" cy="194" r="12" fill="#312e81"/>
+<text x="259" y="199" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#ffffff" text-anchor="middle">2</text>
+<text x="280" y="192" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#312e81" text-anchor="start" data-maxw="150">Interview</text>
+<text x="280" y="210" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="start" data-maxw="260">one question per empty slot</text>
+<rect x="522" y="182" width="210" height="24" rx="6" fill="#ffffff" stroke="#a5b4fc"/>
+<text x="627.0" y="199" font-family="Consolas, Menlo, monospace" font-size="12" font-weight="400" fill="#312e81" text-anchor="middle" data-maxw="200">SKILL.md</text>
+<line x1="244" y1="216" x2="732" y2="216" stroke="#a5b4fc" stroke-opacity="0.6"/>
+<circle cx="259" cy="237" r="12" fill="#312e81"/>
+<text x="259" y="242" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#ffffff" text-anchor="middle">3</text>
+<text x="280" y="235" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#312e81" text-anchor="start" data-maxw="150">Techniques</text>
+<text x="280" y="253" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="start" data-maxw="260">as few as possible, each justified</text>
+<rect x="522" y="225" width="210" height="24" rx="6" fill="#ffffff" stroke="#a5b4fc"/>
+<text x="627.0" y="242" font-family="Consolas, Menlo, monospace" font-size="12" font-weight="400" fill="#312e81" text-anchor="middle" data-maxw="200">techniques.md</text>
+<line x1="244" y1="259" x2="732" y2="259" stroke="#a5b4fc" stroke-opacity="0.6"/>
+<circle cx="259" cy="280" r="12" fill="#312e81"/>
+<text x="259" y="285" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#ffffff" text-anchor="middle">4</text>
+<text x="280" y="278" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#312e81" text-anchor="start" data-maxw="150">Calibrate</text>
+<text x="280" y="296" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="start" data-maxw="260">for the target model</text>
+<rect x="522" y="268" width="210" height="24" rx="6" fill="#ffffff" stroke="#a5b4fc"/>
+<text x="627.0" y="285" font-family="Consolas, Menlo, monospace" font-size="12" font-weight="400" fill="#312e81" text-anchor="middle" data-maxw="200">models · other-ais · images</text>
+<line x1="244" y1="302" x2="732" y2="302" stroke="#a5b4fc" stroke-opacity="0.6"/>
+<circle cx="259" cy="323" r="12" fill="#312e81"/>
+<text x="259" y="328" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#ffffff" text-anchor="middle">5</text>
+<text x="280" y="321" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#312e81" text-anchor="start" data-maxw="150">Deliver</text>
+<text x="280" y="339" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="start" data-maxw="260">always in the same order</text>
+<line x1="748" y1="223.0" x2="763" y2="223.0" stroke="#8c959f" stroke-width="2"/><path d="M762,218.0 L770,223.0 L762,228.0 Z" fill="#8c959f"/>
+<rect x="774" y="92" width="202" height="262" rx="10" fill="#ecfdf5" stroke="#6ee7b7" stroke-width="1.2"/>
+<text x="788" y="120" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#065f46" text-anchor="start">Out, in this order</text>
+<text x="788" y="154" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" font-weight="400" fill="#065f46" text-anchor="start" data-maxw="178">1  remaining assumptions</text>
+<text x="788" y="179" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" font-weight="400" fill="#065f46" text-anchor="start" data-maxw="178">2  the prompt to copy</text>
+<text x="788" y="204" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" font-weight="400" fill="#065f46" text-anchor="start" data-maxw="178">3  recipient and model</text>
+<text x="788" y="229" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" font-weight="400" fill="#065f46" text-anchor="start" data-maxw="178">4  techniques with page</text>
+<text x="788" y="254" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" font-weight="400" fill="#065f46" text-anchor="start" data-maxw="178">5  who filled</text>
+<text x="788" y="279" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" font-weight="400" fill="#065f46" text-anchor="start" data-maxw="178">    each slot</text>
+<text x="24" y="398" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="17" font-weight="600" fill="#1f2328" text-anchor="start" data-maxw="952">The ten slots to fill before writing the prompt</text>
+<rect x="24.0" y="412" width="182.4" height="96" rx="10" fill="#fff7e6" stroke="#f5c26b" stroke-width="1.2"/>
+<circle cx="44.0" cy="433" r="11" fill="#b45309"/>
+<text x="44.0" y="437.5" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" font-weight="600" fill="#ffffff" text-anchor="middle">1</text>
+<text x="62.0" y="438" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#7c4a03" text-anchor="start" data-maxw="136.4">Form of the artifact</text>
+<text x="36.0" y="466" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="400" fill="#1f2328" text-anchor="start" data-maxw="160.4">table, file, CSV,</text>
+<text x="36.0" y="485" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="400" fill="#1f2328" text-anchor="start" data-maxw="160.4">prose, card, code</text>
+<rect x="216.4" y="412" width="182.4" height="96" rx="10" fill="#fff7e6" stroke="#f5c26b" stroke-width="1.2"/>
+<circle cx="236.4" cy="433" r="11" fill="#b45309"/>
+<text x="236.4" y="437.5" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" font-weight="600" fill="#ffffff" text-anchor="middle">2</text>
+<text x="254.4" y="438" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#7c4a03" text-anchor="start" data-maxw="136.4">Perimeter</text>
+<text x="228.4" y="466" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="400" fill="#1f2328" text-anchor="start" data-maxw="160.4">what is in, what is out,</text>
+<text x="228.4" y="485" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="400" fill="#1f2328" text-anchor="start" data-maxw="160.4">the borderline cases</text>
+<rect x="408.8" y="412" width="182.4" height="96" rx="10" fill="#fff7e6" stroke="#f5c26b" stroke-width="1.2"/>
+<circle cx="428.8" cy="433" r="11" fill="#b45309"/>
+<text x="428.8" y="437.5" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" font-weight="600" fill="#ffffff" text-anchor="middle">3</text>
+<text x="446.8" y="438" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#7c4a03" text-anchor="start" data-maxw="136.4">Definitions</text>
+<text x="420.8" y="466" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="400" fill="#1f2328" text-anchor="start" data-maxw="160.4">technical terms and</text>
+<text x="420.8" y="485" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="400" fill="#1f2328" text-anchor="start" data-maxw="160.4">criteria in your words</text>
+<rect x="601.2" y="412" width="182.4" height="96" rx="10" fill="#fff7e6" stroke="#f5c26b" stroke-width="1.2"/>
+<circle cx="621.2" cy="433" r="11" fill="#b45309"/>
+<text x="621.2" y="437.5" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" font-weight="600" fill="#ffffff" text-anchor="middle">4</text>
+<text x="639.2" y="438" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#7c4a03" text-anchor="start" data-maxw="136.4">Method and tools</text>
+<text x="613.2" y="466" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="400" fill="#1f2328" text-anchor="start" data-maxw="160.4">sources, order, checks,</text>
+<text x="613.2" y="485" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="400" fill="#1f2328" text-anchor="start" data-maxw="160.4">procedures already in use</text>
+<rect x="793.6" y="412" width="182.4" height="96" rx="10" fill="#fff7e6" stroke="#f5c26b" stroke-width="1.2"/>
+<circle cx="813.6" cy="433" r="11" fill="#b45309"/>
+<text x="813.6" y="437.5" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" font-weight="600" fill="#ffffff" text-anchor="middle">5</text>
+<text x="831.6" y="438" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#7c4a03" text-anchor="start" data-maxw="136.4">Thresholds, numbers</text>
+<text x="805.6" y="466" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="400" fill="#1f2328" text-anchor="start" data-maxw="160.4">percentages, cutoff</text>
+<text x="805.6" y="485" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="400" fill="#1f2328" text-anchor="start" data-maxw="160.4">dates, minimum counts</text>
+<rect x="24.0" y="518" width="182.4" height="96" rx="10" fill="#fff7e6" stroke="#f5c26b" stroke-width="1.2"/>
+<circle cx="44.0" cy="539" r="11" fill="#b45309"/>
+<text x="44.0" y="543.5" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" font-weight="600" fill="#ffffff" text-anchor="middle">6</text>
+<text x="62.0" y="544" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#7c4a03" text-anchor="start" data-maxw="136.4">Fields and content</text>
+<text x="36.0" y="572" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="400" fill="#1f2328" text-anchor="start" data-maxw="160.4">what each row carries</text>
+<text x="36.0" y="591" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="400" fill="#1f2328" text-anchor="start" data-maxw="160.4">and what makes it valid</text>
+<rect x="216.4" y="518" width="182.4" height="96" rx="10" fill="#fff7e6" stroke="#f5c26b" stroke-width="1.2"/>
+<circle cx="236.4" cy="539" r="11" fill="#b45309"/>
+<text x="236.4" y="543.5" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" font-weight="600" fill="#ffffff" text-anchor="middle">7</text>
+<text x="254.4" y="544" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#7c4a03" text-anchor="start" data-maxw="136.4">Recipient</text>
+<text x="228.4" y="572" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="400" fill="#1f2328" text-anchor="start" data-maxw="160.4">where the prompt goes:</text>
+<text x="228.4" y="591" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="400" fill="#1f2328" text-anchor="start" data-maxw="160.4">Claude, ChatGPT, Gemini…</text>
+<rect x="408.8" y="518" width="182.4" height="96" rx="10" fill="#fff7e6" stroke="#f5c26b" stroke-width="1.2"/>
+<circle cx="428.8" cy="539" r="11" fill="#b45309"/>
+<text x="428.8" y="543.5" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" font-weight="600" fill="#ffffff" text-anchor="middle">8</text>
+<text x="446.8" y="544" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#7c4a03" text-anchor="start" data-maxw="136.4">Consumer</text>
+<text x="420.8" y="572" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="400" fill="#1f2328" text-anchor="start" data-maxw="160.4">who reads the output:</text>
+<text x="420.8" y="591" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="400" fill="#1f2328" text-anchor="start" data-maxw="160.4">person, parser, AI</text>
+<rect x="601.2" y="518" width="182.4" height="96" rx="10" fill="#fff7e6" stroke="#f5c26b" stroke-width="1.2"/>
+<circle cx="621.2" cy="539" r="11" fill="#b45309"/>
+<text x="621.2" y="543.5" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" font-weight="600" fill="#ffffff" text-anchor="middle">9</text>
+<text x="639.2" y="544" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#7c4a03" text-anchor="start" data-maxw="136.4">Empty, false premise</text>
+<text x="613.2" y="572" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="400" fill="#1f2328" text-anchor="start" data-maxw="160.4">what to do if nothing</text>
+<text x="613.2" y="591" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="400" fill="#1f2328" text-anchor="start" data-maxw="160.4">is found or facts clash</text>
+<rect x="793.6" y="518" width="182.4" height="96" rx="10" fill="#fff7e6" stroke="#f5c26b" stroke-width="1.2"/>
+<circle cx="813.6" cy="539" r="11" fill="#b45309"/>
+<text x="813.6" y="543.5" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" font-weight="600" fill="#ffffff" text-anchor="middle">10</text>
+<text x="831.6" y="544" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#7c4a03" text-anchor="start" data-maxw="136.4">Case data</text>
+<text x="805.6" y="572" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="400" fill="#1f2328" text-anchor="start" data-maxw="160.4">the variables that change</text>
+<text x="805.6" y="591" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="400" fill="#1f2328" text-anchor="start" data-maxw="160.4">the structure of the answer</text>
+<text x="24" y="642" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#b45309" text-anchor="start" data-maxw="952">Every empty slot becomes a multiple-choice question: the first option is a proposal, the last is «You choose».</text>
+<text x="24" y="682" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="17" font-weight="600" fill="#1f2328" text-anchor="start" data-maxw="952">The seven files of the skill</text>
+<rect x="24.0" y="696" width="129.14285714285714" height="78" rx="10" fill="#f3f4f6" stroke="#d1d5db" stroke-width="1.2"/>
+<text x="34.0" y="720" font-family="Consolas, Menlo, monospace" font-size="12.5" font-weight="600" fill="#374151" text-anchor="start" data-maxw="113.14285714285714">SKILL.md</text>
+<text x="34.0" y="742" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="11.5" font-weight="400" fill="#57606a" text-anchor="start" data-maxw="113.14285714285714">the five steps, the</text>
+<text x="34.0" y="759" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="11.5" font-weight="400" fill="#57606a" text-anchor="start" data-maxw="113.14285714285714">slots, techniques A-I</text>
+<rect x="161.14285714285714" y="696" width="129.14285714285714" height="78" rx="10" fill="#f3f4f6" stroke="#d1d5db" stroke-width="1.2"/>
+<text x="171.14285714285714" y="720" font-family="Consolas, Menlo, monospace" font-size="12.5" font-weight="600" fill="#374151" text-anchor="start" data-maxw="113.14285714285714">techniques.md</text>
+<text x="171.14285714285714" y="742" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="11.5" font-weight="400" fill="#57606a" text-anchor="start" data-maxw="113.14285714285714">the paper's numbers,</text>
+<text x="171.14285714285714" y="759" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="11.5" font-weight="400" fill="#57606a" text-anchor="start" data-maxw="113.14285714285714">techniques left out</text>
+<rect x="298.2857142857143" y="696" width="129.14285714285714" height="78" rx="10" fill="#f3f4f6" stroke="#d1d5db" stroke-width="1.2"/>
+<text x="308.2857142857143" y="720" font-family="Consolas, Menlo, monospace" font-size="12.5" font-weight="600" fill="#374151" text-anchor="start" data-maxw="113.14285714285714">models.md</text>
+<text x="308.2857142857143" y="742" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="11.5" font-weight="400" fill="#57606a" text-anchor="start" data-maxw="113.14285714285714">anti-patterns, Opus</text>
+<text x="308.2857142857143" y="759" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="11.5" font-weight="400" fill="#57606a" text-anchor="start" data-maxw="113.14285714285714">and Sonnet deltas</text>
+<rect x="435.42857142857144" y="696" width="129.14285714285714" height="78" rx="10" fill="#f3f4f6" stroke="#d1d5db" stroke-width="1.2"/>
+<text x="445.42857142857144" y="720" font-family="Consolas, Menlo, monospace" font-size="12.5" font-weight="600" fill="#374151" text-anchor="start" data-maxw="113.14285714285714">other-ais.md</text>
+<text x="445.42857142857144" y="742" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="11.5" font-weight="400" fill="#57606a" text-anchor="start" data-maxw="113.14285714285714">ChatGPT, Gemini,</text>
+<text x="445.42857142857144" y="759" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="11.5" font-weight="400" fill="#57606a" text-anchor="start" data-maxw="113.14285714285714">Codex</text>
+<rect x="572.5714285714286" y="696" width="129.14285714285714" height="78" rx="10" fill="#f3f4f6" stroke="#d1d5db" stroke-width="1.2"/>
+<text x="582.5714285714286" y="720" font-family="Consolas, Menlo, monospace" font-size="12.5" font-weight="600" fill="#374151" text-anchor="start" data-maxw="113.14285714285714">images.md</text>
+<text x="582.5714285714286" y="742" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="11.5" font-weight="400" fill="#57606a" text-anchor="start" data-maxw="113.14285714285714">image generators</text>
+<text x="582.5714285714286" y="759" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="11.5" font-weight="400" fill="#57606a" text-anchor="start" data-maxw="113.14285714285714">and editing</text>
+<rect x="709.7142857142857" y="696" width="129.14285714285714" height="78" rx="10" fill="#f3f4f6" stroke="#d1d5db" stroke-width="1.2"/>
+<text x="719.7142857142857" y="720" font-family="Consolas, Menlo, monospace" font-size="12.5" font-weight="600" fill="#374151" text-anchor="start" data-maxw="113.14285714285714">surfaces.md</text>
+<text x="719.7142857142857" y="742" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="11.5" font-weight="400" fill="#57606a" text-anchor="start" data-maxw="113.14285714285714">Claude Code, system</text>
+<text x="719.7142857142857" y="759" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="11.5" font-weight="400" fill="#57606a" text-anchor="start" data-maxw="113.14285714285714">prompts, API</text>
+<rect x="846.8571428571429" y="696" width="129.14285714285714" height="78" rx="10" fill="#f3f4f6" stroke="#d1d5db" stroke-width="1.2"/>
+<text x="856.8571428571429" y="720" font-family="Consolas, Menlo, monospace" font-size="12.5" font-weight="600" fill="#374151" text-anchor="start" data-maxw="113.14285714285714">examples.md</text>
+<text x="856.8571428571429" y="742" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="11.5" font-weight="400" fill="#57606a" text-anchor="start" data-maxw="113.14285714285714">four before/after</text>
+<text x="856.8571428571429" y="759" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="11.5" font-weight="400" fill="#57606a" text-anchor="start" data-maxw="113.14285714285714">pairs</text>
+<text x="24" y="808" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#57606a" text-anchor="start" data-maxw="952">Sources: The Prompt Report (Schulhoff et al., arXiv:2406.06608) and Anthropic documentation  ·  License MIT</text>
+</svg>
