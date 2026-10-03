@@ -58,20 +58,22 @@ This flowchart and the overview at the top of the page are also available as ima
 
 ## Example
 
-A real session on claude.ai, anonymized: **[read the full case study](case-studies/analytical-balance-en.md)**, with the reasoning, all eleven questions with their options, and the complete delivery.
+A real session on claude.ai, anonymized: **[read the full case study](case-studies/pygame-svg-icons-en.md)**, with the reasoning, all eleven questions with their options, and the complete delivery.
 
-> **Request:** Write me a prompt for Claude to help me prepare a procedure for the periodic verification of an analytical balance in the laboratory
+> **Request:** Write me a prompt for Claude Code that helps me replace the PNG icons in a pygame program with SVG icons that stay sharp at every zoom level
 
-The skill reads the user's memory, then asks eleven questions in three blocks. The first block:
+The skill reads the user's memory and its rules for Claude Code, then asks eleven questions in three blocks. Four of them:
 
 | Question | Options (chosen in bold) |
 |---|---|
-| Where will you paste the prompt? | **Claude, chat** · Claude Code · Another AI |
-| Which Claude model will you use? | **Opus** · Sonnet · Don't know |
-| What form should the procedure take? | SOP + record form · **SOP text only** · Form/checklist only · You decide |
-| Which checks are part of the periodic verification? | Daily + periodic · **Full periodic only** · Include calibration management · You decide |
+| What do you mean by 'zoom'? | Window resizing · **In-app zoom** · Windows DPI scaling · You choose |
+| What should rasterize the SVGs? *Proposal: pygame-ce, no external DLLs* | Native pygame-ce · resvg / pynanosvg · cairosvg · **You choose** |
+| The original PNGs after the migration? | Automatic fallback · **Deleted** · Archived in a folder · You choose |
+| If an icon has no SVG, what does Claude Code do? | Report and continue · Stop and ask · **Vectorize from the PNG** · You choose |
 
-Then it delivers the remaining assumptions, a prompt in five tagged sections (context, case data, task, before writing, format), the recipient, the techniques with their page in the paper, and who filled each slot.
+The last two answers together would derive missing SVGs from files about to be deleted: the skill notices and opens a third block to check which SVGs already exist. Then it delivers the remaining assumptions, a prompt for Claude Code with a plan to approve before any change, a confirmation before deleting files and a test at three zoom levels, the recipient, the techniques with their page in the paper, and who filled each slot.
+
+**For a laboratory example:** read the full [analytical-balance case study](case-studies/analytical-balance-en.md), a prompt for a verification SOP based on USP ⟨41⟩, with eleven questions on scope, standards and acceptance criteria.
 
 ## Structure of the skill
 
@@ -88,7 +90,7 @@ writing-prompts/          English skill (this README)
 scrittura-prompt/         Italian skill, same structure (see README.it.md)
 zip/                      the zips of the latest version, one per language
 diagrams/                 the flowchart as an image, English and Italian
-case-studies/             a real session, anonymized, in English and Italian
+case-studies/             two real sessions, anonymized, in English and Italian
 ```
 
 | File | When Claude opens it | What it contains |
@@ -122,7 +124,7 @@ The skill opens on its own when you ask for a prompt («write me a prompt to…�
 
 ## Status
 
-The **Italian** version is developed and field-tested on Claude Opus 5, in real use rather than synthetic benchmarks. The **English** version is a translation; it has one field session so far, the [case study](case-studies/analytical-balance-en.md).
+The **Italian** version is developed and field-tested on Claude Opus 5, in real use rather than synthetic benchmarks. The **English** version is a translation; it has two field sessions so far, the case studies on [pygame](case-studies/pygame-svg-icons-en.md) and on the [analytical balance](case-studies/analytical-balance-en.md).
 
 ## Versions
 

@@ -58,20 +58,24 @@ Questo diagramma e la scheda in cima alla pagina sono disponibili anche come imm
 
 ## Esempio
 
-Una sessione reale su claude.ai, anonimizzata: **[leggi il caso di studio completo](case-studies/analytical-balance-it.md)**, con il ragionamento, tutte le undici domande con le loro opzioni e la consegna per intero.
+Una sessione reale su claude.ai, anonimizzata: **[leggi il caso di studio completo](case-studies/pygame-svg-icons-it.md)**, con il ragionamento, tutte le undici domande con le loro opzioni e la consegna per intero.
 
-> **Richiesta:** Scrivimi un prompt per Claude che mi aiuti a preparare una procedura per la verifica periodica di una bilancia analitica in laboratorio
+> **Richiesta:** Write me a prompt for Claude Code that helps me replace the PNG icons in a pygame program with SVG icons that stay sharp at every zoom level
+>
+> *(Scrivimi un prompt per Claude Code che mi aiuti a sostituire le icone PNG di un programma in pygame con icone SVG che restino nitide a ogni livello di ingrandimento)*
 
-La skill legge la memoria dell'utente, poi fa undici domande in tre blocchi. Il primo blocco:
+La skill legge la memoria dell'utente e le sue regole per Claude Code, poi fa undici domande in tre blocchi. Quattro di queste:
 
 | Domanda | Opzioni (in grassetto quella scelta) |
 |---|---|
-| Dove incollerai il prompt? | **Claude, chat** · Claude Code · Altra AI |
-| Quale modello Claude userai? | **Opus** · Sonnet · Non so |
-| In che forma deve uscire la procedura? | SOP + modulo registrazione · **Solo testo SOP** · Solo modulo/checklist · Decidi tu |
-| Quali controlli rientrano nella verifica periodica? | Giornaliero + periodico · **Solo periodico completo** · Includi gestione taratura · Decidi tu |
+| Cosa intendi per 'zoom'? | Ridimensionamento finestra · **Zoom in-app** · Scaling DPI Windows · Scegli tu |
+| Con cosa rasterizzare gli SVG? *Proposta: pygame-ce, senza DLL esterne* | pygame-ce nativo · resvg / pynanosvg · cairosvg · **Scegli tu** |
+| I PNG originali dopo la migrazione? | Fallback automatico · **Eliminati** · Archiviati in cartella · Scegli tu |
+| Se per un'icona non esiste l'SVG, Claude Code cosa fa? | Segnala e prosegue · Si ferma e chiede · **Vettorizza dal PNG** · Scegli tu |
 
-Poi consegna le assunzioni rimaste, un prompt in cinque sezioni con tag (contesto, dati del caso, compito, prima di scrivere, formato), il destinatario, le tecniche con la pagina del paper, e chi ha riempito ogni casella.
+Le ultime due risposte insieme ricaverebbero gli SVG mancanti da file che stanno per essere eliminati: la skill se ne accorge e apre un terzo blocco per sapere quali SVG esistono già. Poi consegna le assunzioni rimaste, un prompt per Claude Code con un piano da approvare prima di ogni modifica, una conferma prima di cancellare file e un collaudo a tre livelli di zoom, il destinatario, le tecniche con la pagina del paper, e chi ha riempito ogni casella.
+
+**Per un esempio da laboratorio:** leggi il [caso di studio completo della bilancia analitica](case-studies/analytical-balance-it.md), un prompt per una SOP di verifica basata su USP ⟨41⟩, con undici domande su perimetro, norme e criteri di accettazione.
 
 ## Struttura della skill
 
@@ -88,7 +92,7 @@ scrittura-prompt/         skill italiana (questo README)
 writing-prompts/          skill inglese, stessa struttura con i nomi tradotti (vedi README.md)
 zip/                      gli zip dell'ultima versione, uno per lingua
 diagrams/                 il diagramma di flusso come immagine, in inglese e in italiano
-case-studies/             una sessione reale, anonimizzata, in inglese e in italiano
+case-studies/             due sessioni reali, anonimizzate, in inglese e in italiano
 ```
 
 | File | Quando lo apre Claude | Cosa contiene |
@@ -122,7 +126,7 @@ La skill si apre da sola quando chiedi un prompt («scrivimi un prompt per…»,
 
 ## Stato
 
-La versione **italiana** è sviluppata e collaudata sul campo con Claude Opus 5, nell'uso reale e non su benchmark sintetici. La versione **inglese** è una traduzione; finora ha una sessione sul campo, il [caso di studio](case-studies/analytical-balance-it.md).
+La versione **italiana** è sviluppata e collaudata sul campo con Claude Opus 5, nell'uso reale e non su benchmark sintetici. La versione **inglese** è una traduzione; finora ha due sessioni sul campo, i casi di studio su [pygame](case-studies/pygame-svg-icons-it.md) e sulla [bilancia analitica](case-studies/analytical-balance-it.md).
 
 ## Versioni
 
