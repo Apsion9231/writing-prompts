@@ -115,10 +115,27 @@ From the [latest release](../../releases/latest), download **one** zip:
 | English | `writing-prompts-<version>.zip` | `writing-prompts` |
 | Italian | `scrittura-prompt-<version>.zip` | `scrittura-prompt` |
 
+### On claude.ai
+
 1. Make sure code execution is enabled in your claude.ai settings.
 2. Open **Customize > Skills** and click **Upload skill**.
 3. Choose the zip, without unzipping it.
 4. For a new version, upload the new zip: it replaces the skill with the same name.
+
+### In Claude Code
+
+Unzip the zip into your personal skills folder, so that the skill ends up in `~/.claude/skills/writing-prompts/SKILL.md` (on Windows, `%USERPROFILE%\.claude\skills\writing-prompts\SKILL.md`). The zip already contains the `writing-prompts/` folder: do not create it yourself. To make the skill available in one project only, unzip it into that project's `.claude/skills/` folder instead.
+
+Or clone the repository and copy the folder:
+
+```bash
+git clone https://github.com/Apsion9231/writing-prompts.git
+cp -r writing-prompts/writing-prompts ~/.claude/skills/
+```
+
+Start a new session: Claude Code loads the skills it finds there. For a new version, replace the folder.
+
+### Using it
 
 The skill opens on its own when you ask for a prompt («write me a prompt to…», «draft a prompt for ChatGPT»).
 
